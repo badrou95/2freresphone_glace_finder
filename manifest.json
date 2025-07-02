@@ -1,0 +1,10 @@
+
+{
+  "name": "2Frères Phone Glace Finder",
+  "short_name": "GlaceFinder",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6a0dad",
+  "icons": []
+}
