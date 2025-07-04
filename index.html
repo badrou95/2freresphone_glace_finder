@@ -2,37 +2,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>2Frères Phone Glace Finder</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>2Frères Phone Glace Finder</h1>
-    <input type="text" id="search" placeholder="Rechercher un modèle..." />
-  </header>
+  <header><h1>Bienvenue chez 2Frères Phone</h1></header>
   <main>
-    <ul id="results"></ul>
+    <input type="text" placeholder="Rechercher un modèle..." id="searchInput">
+    <div id="results"></div>
   </main>
-  <script src="data.js"></script>
-  <script>
-    const searchInput = document.getElementById("search");
-    const resultsList = document.getElementById("results");
-
-    searchInput.addEventListener("input", () => {
-      const query = searchInput.value.toLowerCase();
-      resultsList.innerHTML = "";
-
-      if (query.length < 2) return;
-
-      const filtered = phones.filter(p => p.model.toLowerCase().includes(query));
-      filtered.forEach(phone => {
-        const li = document.createElement("li");
-        li.innerHTML = `<strong>${phone.model}</strong><br>Compatibles : ${phone.compatible.join(", ")}`;
-        resultsList.appendChild(li);
-      });
-    });
-  </script>
+  <footer>
+    <p>📍 10 rue Achour Maïdi, Alger Centre — 📞 0795 58 23 00</p>
+  </footer>
 </body>
 </html>
