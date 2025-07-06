@@ -1,0 +1,1 @@
+const phones = [{ model: 'Samsung A71', compatibles: ['Samsung A72', 'Samsung M51', 'Samsung S20 FE'] }];
