@@ -1,8 +1,1 @@
-
-body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
-.container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-input#search { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px; }
-.logo-bg { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-image: url('images/logo.png'); background-size: 300px; background-repeat: no-repeat; background-position: center; opacity: 0.05; z-index: 0; }
-.result-card { padding: 10px; margin-bottom: 10px; background: #f0f0f0; border-radius: 6px; }
-.result-card img { max-width: 100px; display: block; margin-bottom: 5px; }
-    
+/* Feuille de style principale */
